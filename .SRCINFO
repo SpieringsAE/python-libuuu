@@ -1,6 +1,6 @@
 pkgbase = python-libuuu
 	pkgdesc = A python wrapper for libuuu
-	pkgver = 1.5.191
+	pkgver = 1.5.197
 	pkgrel = 1
 	url = https://github.com/nxp-imx/mfgtools
 	changelog = History.md
@@ -11,6 +11,7 @@ pkgbase = python-libuuu
 	makedepends = python-build
 	makedepends = python-installer
 	makedepends = python-wheel
+	makedepends = zip
 	depends = bzip2
 	depends = zlib
 	depends = libusb
@@ -18,7 +19,7 @@ pkgbase = python-libuuu
 	depends = openssl
 	depends = tinyxml2
 	depends = python-setuptools-scm
-	source = git+https://github.com/nxp-imx/mfgtools#commit=6c2141e3e820c5a487482adcde5cf66266c07656
+	source = git+https://github.com/nxp-imx/mfgtools#commit=03f16e5b3668a88c4c7e4684794d858518d921a2
 	source = git+https://github.com/microsoft/vcpkg.git
 	sha256sums = SKIP
 	sha256sums = SKIP
